@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-brightgreen.svg)](https://www.python.org/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/CodingGeoff/WebCrawler/pulls)
 
 **The ultimate tool for converting any webpage into clean, portable, and beautifully formatted Markdown.**
 
@@ -31,7 +31,7 @@ Tired of cluttered web articles, ads, and pop-ups? Web 2 Markdown Pro intelligen
 
 ### For Users (Recommended)
 
-1. Navigate to the [**Latest Release**](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest).
+1. Navigate to the [**Latest Release**](https://github.com/CodingGeoff/WebCrawler/releases/latest).
 2. Download the `Web-2-Markdown-Pro.exe` file from the **Assets** section.
 3. No installation needed! Just double-click the `.exe` to run the application.
 
@@ -41,41 +41,38 @@ If you want to run the application from the source code and customize it:
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone [https://github.com/](https://github.com/CodingGeoff/WebCrawler.git)
-    cd WebCrawler
-    ```
-
+   ```bash
+   git clone https://github.com/CodingGeoff/WebCrawler.git
+   cd WebCrawler
+   ```
 2. **Create and activate a virtual environment:**
 
-    ```bash
-    python -m venv venv
-    # On Windows
-    .\venv\Scripts\activate
-    # On macOS/Linux
-    source venv/bin/activate
-    ```
-
+   ```bash
+   python -m venv venv
+   # On Windows
+   .\venv\Scripts\activate
+   # On macOS/Linux
+   source venv/bin/activate
+   ```
 3. **Install the required dependencies:**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-    *(You will need to create a `requirements.txt` file with the content below).*
-
+   *(You will need to create a `requirements.txt` file with the content below).*
 4. **Run the application:**
 
-    ```bash
-    python app.py
-    ```
+   ```bash
+   python app.py
+   ```
 
 ## 💻 How to Use
 
 1. **Paste URL**: Paste a web page link into the input field.
 2. **Select Options**:
-    - Choose your desired image handling method.
-    - Check/uncheck TOC generation or link cleaning.
+   - Choose your desired image handling method.
+   - Check/uncheck TOC generation or link cleaning.
 3. **Convert**: Click the "Start Conversion" button.
 4. **Save or Copy**: Once complete, the Markdown will appear. You can use the buttons at the bottom to save it as a `.md` file or copy the entire content to your clipboard.
 
@@ -94,14 +91,14 @@ To build your own `.exe` file, ensure you have PyInstaller and the necessary pro
 Then, run the following command in your terminal:
 
 ```bash
-pyinstaller --noconfirm --onefile --windowed --name "Web 2 Markdown Pro" --icon="webcrawler.ico" --add-data "drivers;drivers" app.py
+pyinstaller --noconfirm --onefile --windowed --name "Web2Markdown-Pro" --icon="webcrawler.ico" --add-data "drivers;drivers" app.py
 ```
 
 The final executable will be located in the `dist` folder.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/CodingGeoff/WebCrawler/issues).
 
 ## 📄 License
 
